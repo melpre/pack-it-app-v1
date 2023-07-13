@@ -21,7 +21,7 @@ function App() {
 
     return (
     <div className='App'>
-        <header class="mt-5">
+        <header className="mt-5">
             {/* <h1 class="text-sm-start ps-5 pe-5 pt-5 pb-5">The PackIt! App</h1> */}
         </header>
         <main>

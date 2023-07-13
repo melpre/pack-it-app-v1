@@ -1,3 +1,7 @@
+// Store category list items in objects
+    /// Reasoning behind decision -- most items in the list will typically remain the same, therefore data will NOT
+    /// change significantly over time.
+
 const data = {
     "clothes": [
         'underwear',
@@ -13,7 +17,7 @@ const data = {
         'dresses',
         'skirts',
         'sweaters/sweatshirts',
-        'formalwear',
+        'formal wear',
         'swimsuits/cover-ups',
         'coats/jackets/rainwear',
         'hats',
@@ -22,14 +26,14 @@ const data = {
         'umbrella',
         'laundry kit',
         'laundry bag',
-        'leisure shoes',
-        'hiking shoes/athletic shoes',
+        'casual shoes',
+        'hiking/athletic shoes',
         'walking shoes',
         'dress shoes',
         'sandals/flip flops',
         'belts',
         'ties',
-        'jewelry (if valuable, put in carry-on)',
+        'jewelry (non-valuable)',
         'purses',
         'collapsible totes',
         'under clothing document holders'
@@ -37,22 +41,22 @@ const data = {
     "toiletries": [
         'toothbrush',
         'toothpaste',
-        'dentalFloss',
+        'floss',
         'soap',
         'deodorant',
         'shampoo/conditioner',
         'brush/comb',
         'hairstyling tools',
         'face cleanser',
-        'face moisturizer/tonic/serum, etc',
+        'face moisturizer/tonic/serum',
         'sunscreen',
         'moisturizer',
-        'contact lenses/contact solution',
+        'contact lenses/solution',
         'shaving kit',
-        'make-up/make-up remover',
-        'feminine hygiene products',
+        'make-up/remover',
+        'feminine products',
         'birth control',
-        'nail file/nail clippers',
+        'nail file/clippers',
         'tweezers',
         'hand sanitizer',
         'bandages',
@@ -62,21 +66,21 @@ const data = {
         'pain relievers',
         'vitamins'
     ],
-    "misc": [
-        'mobilePhone',
+    "miscellaneous": [
         'laptop/tablet/game device',
-        'device chargers',
+        'chargers',
         'plug adaptor',
         'binoculars',
-        'listof medications',
+        'list of medications',
         'emergency contacts',
-        'credit card contacts/bank contacts',
-        'passport copy/credit card copy'
+        'credit card, bank contacts',
+        'passport, credit card copies'
     ],
     "carryon": [
+        'mobile',
         'books/eBooks',
         'earbuds/headphones',
-        'shawl/travel blanket',
+        'shawl/light blanket',
         'travel pillow',
         'ear plugs/eye mask',
         'tissues',
@@ -89,13 +93,14 @@ const data = {
         'passport/visa/id',
         'paper/pen',
         'cash',
-        'cards: atm/credit',
-        'insurance: health/travel',
+        'atm/credit cards',
+        'health/travel insurance',
         'itinerary',
         'maps/directions',
-        'guidebook',
+        'guide books',
         'address book',
-        'keys: house/car'
+        'house/car keys',
+        'jewelry (valuable)'
     ]
 };
 
