@@ -8,6 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 // Import components
 import NewForm from './components/NewForm';
 import List from './components/List';
+import Navbar from './components/Navbar';
 
 
 function App() {
@@ -21,13 +22,13 @@ function App() {
 
     return (
     <div className='App'>
-        <header className="mt-5">
-            {/* <h1 class="text-sm-start ps-5 pe-5 pt-5 pb-5">The PackIt! App</h1> */}
+        <header>
+            <Navbar />
         </header>
         <main>
             <Routes>
                 <Route exact path='/' element={ <NewForm state={state} setState={setState} />} />
-                <Route path='listresults' element={ <List state={state} />} />
+                <Route path='listresults' element={ <List state={state} setState={setState}/>} />
             </Routes>
         </main>
     </div>

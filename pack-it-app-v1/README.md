@@ -10,6 +10,10 @@ Finally got a few items checked off on my to-do list for this project. I tinkere
 
 The second phase of this project will entail the display of tabs to represent the number of people to pack for (for example, if you need a master packing list for a family of four).
 
+## 26 July 2023
+
+I updated the app to include a simple navigation bar which will route to the home page, the checklist page as well as an additonal 'About' page which will describe what the application is and how to use it.
+
 
 
 ### `watch this space!`

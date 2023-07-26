@@ -23,13 +23,12 @@ function NewForm({state, setState}) {
     }
     
     return (
-        <div className="container-fluid">
+        <div className="container-fluid mt-5">
             <div className="row">
                 <div className="col-sm-12">
-                    <h2>The PackIt! App</h2>
                     <div className="row">
                         <div className="col-4 col-sm-6 border border-bottom-0">
-                            <form onSubmit={handleOnSubmit} className="px-3 py-3">
+                            <form onSubmit={handleOnSubmit} className="px-3 py-3 text-end">
                                 <label className="pe-4 pb-2">Where to?</label>
                                 <input className="mb-2"
                                     type="text"
