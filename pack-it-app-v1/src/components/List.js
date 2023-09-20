@@ -41,10 +41,10 @@ export default function List({state}) {
                         <input type="number"
                                 min="0"
                                 max="100" 
-                               className="form-control" 
+                               className="form-control-sm" 
                                aria-label="quantity input" 
                                placeholder={current === 'clothes' ? state.daysOfTravel : 1}></input>
-                        <span className="ps-3 text-wrap">{item}</span>
+                        <span className="ps-3 text-center">{item}</span>
                     </div>
                 </div>
             </Col> )
@@ -53,7 +53,7 @@ export default function List({state}) {
 
     return (
         <div>
-            <Container className="container-fluid border mt-5">
+            <Container className="container-fluid pt-5">
                 <h5 className="text-left my-2 mt-4">{current.charAt(0).toUpperCase() + current.slice(1)}</h5>
                 <div>
                     <p>
